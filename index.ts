@@ -8,6 +8,8 @@ const BASE_URL = process.env.BASE_URL || ''
 const links = [
     { name: 'growry', path: '/growry' },
     { name: 'hono-note', path: '/hono-note/frontend' },
+    { name: 'profile', path: '/profile' },
+    { name: 'trends-summary', path: '/trends-summary' },
 ]
 
 app.get('/linkhub', (c) => {
