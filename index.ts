@@ -5,7 +5,7 @@ const app = new Hono()
 
 const APP_PREFIX = '/linkhub'
 const BASE_URL = process.env.BASE_URL || ''
-const GITHUB_USER = process.env.GITHUB_USER || ''
+const GITHUB_USER = process.env.GITHUB_USER || 'KM-rira'
 const GITHUB_URL = `https://github.com/${GITHUB_USER}/`
 
 const worldIcon = `
